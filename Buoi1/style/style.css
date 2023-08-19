@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* word font */
+    font-family: "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    background-color: burlywood;
+    text-align: center;
+}
+
+div {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    color:blueviolet;
+    font-size: large;
+    font-weight: 800;
+}
+
+.information,
+#image {
+    width: 500px;
+    height: 500px;
+    background: rgba(128, 219, 255, 0.731);
+
+}
+
+#image {
+    padding-top: 150px;
+}
+
+.information{
+    padding-top: 20px;
+}
+
+.information > ul, .information > ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
