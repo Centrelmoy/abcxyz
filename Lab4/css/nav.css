@@ -1,0 +1,53 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ body {
+        margin: 0 auto;
+        padding: 0;
+ }
+
+ nav ul {
+    font-size: large;
+    font-weight: 700;
+    background-color: antiquewhite;
+    color: brown;
+    /* padding: 10px 20px; */
+    overflow: hidden;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: brown;
+    display: block;
+    text-align: left;
+    padding: 16px;
+}
+
+nav ul li a:hover, .active {
+    color: white;
+    background-color: brown;
+}
+
+nav ul li {
+    float: left;
+}
+
+.ver ul li {
+    float: none;
+}
+
+.ver {
+    width: 20%;
+    height: 600px;
+}
+
+.ver ul {
+    height: 100%;
+    padding-left: 0;
+}
